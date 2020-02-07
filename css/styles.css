@@ -1,0 +1,98 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bigFont {
+  font-size: 50px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.colorBlue {
+  color: lightblue;
+}
+.colorGray {
+  color: gray;
+}
+
+.mediumFont {
+  font-size: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.smallFont {
+  font-size: 20px;
+}
+
+.imageScale {
+  object-fit: contain;
+  height: 40px;
+}
+.imageScale1 {
+  object-fit: contain;
+  height: 55px;
+}
+.imageScale15 {
+  object-fit: contain;
+  height: 65px;
+}
+.imageScale2 {
+  object-fit: contain;
+  height: 360px;
+}
+
+.imageScale3 {
+  object-fit: contain;
+  height: 150px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(254, 238, 227);
+  border-radius: 5px;
+  padding: 25px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+}
+
+li {
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+li:hover {
+  transform: scale(1.5);
+}
+
+.card-list {
+  width: 85vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.back {
+  background: rgb(247, 247, 247);
+  background: linear-gradient(
+    15deg,
+    rgba(247, 247, 247, 1) 0%,
+    rgba(247, 247, 247, 1) 41%,
+    rgba(252, 251, 252, 1) 100%
+  );
+}
+
+.blackText {
+  font-size: 15px;
+  font-family: 'Josefin Sans', sans-serif;
+}
